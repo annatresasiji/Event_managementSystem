@@ -1,0 +1,8 @@
+package EventManagement_system;
+
+import javax.swing.JFrame;
+
+public abstract class AbstractVenue extends JFrame {
+    abstract void displayVenueDetails(String name);
+    abstract void addVenue(String name, String image_url, String capacity, String price, String facilities, String description);
+}
